@@ -13,7 +13,7 @@ new GameView(s1)
 
 canvas.addEventListener('click', moveView)
 const btn_start_ai = document.querySelector('#btn_start_ai')
-btn_start_ai.addEventListener('click' ,start_ai)
+btn_start_ai.addEventListener('click', start_ai)
 
 
 function moveView(event)
